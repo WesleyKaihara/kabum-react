@@ -64,7 +64,7 @@ function App() {
               gap: "1vh"
 
             }}
-            ><h1>A promoção termina em  </h1> <AccessTimeIcon />  <Relogio/></div>
+            ><h1>A promoção termina em  </h1> <AccessTimeIcon />  <Relogio fontSize="3.5vh"/></div>
           </div>
         </div>
 

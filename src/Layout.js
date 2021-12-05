@@ -10,8 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import Relogio from "./Components/Relogio"
 import Card from "./Components/Card"
-import Propaganda1 from "./propaganda1.jpg"
-import Propaganda2 from "./propaganda2.jpg"
+
 
 function Layout() {
   return (
