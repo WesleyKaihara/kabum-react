@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
  
 function Relogio(props) {
-  const Natal = new Date(2021, 11, 25, 0, 0, 0, 0);
+  const Natal = new Date(2021, 11, 24, 0, 0, 0, 0);
   const Agora = new Date();
   const Dias= Natal.getDate()-Agora.getDate()
   const Horas = 24-Agora.getHours()
