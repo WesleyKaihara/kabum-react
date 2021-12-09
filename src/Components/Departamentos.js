@@ -18,7 +18,7 @@ function Departamento(props){
                 height:"18vh"
             }}>
                 
-                <img src={props.imagem} style={{width:"35vh",height:"25vh"}}/>
+                <img src={props.imagem} style={{width:"35vh",height:"25vh"}} alt="Departamento"/>
             </div>
 
         </div>

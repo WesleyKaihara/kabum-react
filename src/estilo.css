@@ -87,3 +87,125 @@
     width: 100%;
 }
 
+.Prime img{
+    width: 100%;
+    margin:5vh 0;
+}
+
+.slick-prev:before, .slick-next:before{
+     color: black;
+}
+
+.procurados {
+    display: flex; 
+    justify-content: space-between;
+    padding: 5vh 0;
+}
+
+.procurados_itens{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-right: 3vh;
+}
+
+.procurados_produtos{
+    display: flex;
+    width: 100%;
+    gap: 3vh;
+    margin-bottom: 3vh;
+}
+
+.promocao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.procurados_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh 0;
+}
+
+.procurados_title h2{
+    color: #ef611c;
+    text-decoration: underline;
+    font-size: 3vh;
+}
+
+.noticias{
+    display: flex;
+    justify-content: space-between;
+    padding: 8vh 0;
+}
+
+.noticias_card{
+    width: 30%;
+    border: 1px solid rgba(199, 199, 199, 0.603);
+    padding: 3vh 1.5vh 7vh 1.5vh;
+}
+
+.noticias_card h1{
+    font-size: 3vh;
+}
+
+.noticias_card p{
+    font-size: 2vh;
+}
+
+.news{
+    background: #003a6a;
+}
+
+.news_align{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0 ;
+    gap: 5vh;
+}
+.news_txt{
+    width: 25%;
+    color: #fff;
+}
+.news_txt h1{
+    font-size: 3vh;
+}
+.news_input{
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px;
+    height: 60%;
+}
+
+.news_btn{
+    background: #ef611c;
+    border-radius: 10px;
+    font-size: 2vh;
+    color: #fff;
+    width: 20%;
+    height: 60%;
+    padding: 10px;
+
+}
+
+.footer_sobre{
+    background: #004d8e;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 2vh 0 ;
+}
+
+.footer_selos{
+    width: 80%;
+    margin: auto;
+}
+
+.selo{
+    width: 15%;
+    height: 5h;
+}

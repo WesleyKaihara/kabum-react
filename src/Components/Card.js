@@ -6,9 +6,9 @@ import "../estilo.css"
 function Card(props) {
     return (
         <div className="Card" style={{
-            width: "40vh",
+            width: "25%",
             background: "#fff",
-            borderRadius: "10px"
+            borderRadius: "10px",
         }}
         >
             <div style={{

@@ -15,6 +15,27 @@ import Propaganda1 from './images/propaganda1.jpg';
 import Propaganda2 from './images/propaganda2.jpg'
 import Celular from './images/Celular.png';
 import Departamento from "./Components/Departamentos";
+import Hardware from './images/hardware.png';
+import Perifericos from './images/perifericos.png';
+import Games from './images/games.png';
+import Tv from './images/tv.png';
+import Eletrodomestico from './images/eletrodomestico.png'
+import Digital from './images/digital.png'
+import Conectividade from './images/conectividade.png'
+import Cadeiras from './images/cadeiras.png';
+import Computadores from './images/computadores.png';
+import Beneficio from './images/beneficio.png';
+import Audio from './images/audio.png';
+import Prime from './images/prime.jpg';
+import Promo1 from './images/promo1.png'
+import Promo2 from './images/promo2.png'
+import Promo3 from './images/promo3.jpg'
+import Selo1 from './images/selo1.png'
+import Selo2 from './images/selo2.png'
+import Selo3 from './images/selo3.png'
+import Selo4 from './images/selo4.png'
+import Selo5 from './images/selo5.png'
+
 
 
 function Layout() {
@@ -77,8 +98,9 @@ function Layout() {
               width: "100%",
               display: "flex",
               paddingTop: "4vh",
-              gap: "5vh",
+              gap: "2vh"
             }}>
+
               <Card
                 promocao="40%"
                 quantidade="200"
@@ -150,50 +172,192 @@ function Layout() {
               }}>
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Hardware} />
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Perifericos} />
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Games} />
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Cadeiras} />
 
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Computadores} />
+                <Departamento
+                  titulo="Hardware"
+                  imagem={Tv} />
                 <Departamento
                   titulo="Hardware"
                   imagem={Celular} />
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
-                <Departamento
-                  titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Beneficio} />
 
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Digital} />
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Eletrodomestico} />
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Audio} />
                 <Departamento
                   titulo="Hardware"
-                  imagem={Celular} />
+                  imagem={Conectividade} />
               </div>
 
             </div>
-          </div> {/* Container*/}
 
+            <div className="Prime">
+              <img src={Prime} alt="Prime" />
+            </div>
+            <h1>Mais Procurados</h1>
+            <div className="procurados">
+              <div className="procurados_itens">
+
+                <div className="procurados_produtos">
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+                </div >
+                <div className="procurados_title">
+                  <h1>Acabaram de Chegar</h1>
+                  <h2>Ver Mais</h2>
+                </div>
+                <div className="procurados_produtos">
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+
+                  <Card
+                    promocao="40%"
+                    quantidade="200"
+                    vendidos="55"
+                    imagem={Kabum}
+                    nome="Hedset Gamer HyperX Cloud Stinger"
+                    valorInicial="R$250,00"
+                    valorNovo="R$150,00" />
+                </div >
+                <h2 style={{ display: "flex", justifyContent: "flex-end", color: "#ef611c", textDecoration: "underline" }}>Ver Mais</h2>
+                <div>
+                </div>
+              </div>
+              <div className="promocao">
+                <img src={Promo1} alt="Promoção" />
+                <img src={Promo2} alt="Promoção" />
+                <img src={Promo3} alt="Promoção" />
+
+              </div>
+            </div>
+            <div className="noticias">
+              <div className="noticias_card">
+                <h1># TônaOnda</h1>
+                <p>O universo Tech de um jeito fácil de entender</p>
+              </div>
+              <div className="noticias_card">
+                <h1>Cartão Kabum</h1>
+                <p>Sua compra mais Ninja,com anuidade ZERO</p>
+              </div>
+              <div className="noticias_card">
+                <h1>TecMasters</h1>
+                <p>As últimas noticias do mundo da Tecnologia</p>
+              </div>
+
+
+            </div>
+          </div> {/* Container*/}
         </div>
       </main>
-
+      <footer>
+        <div className="news">
+          <div className="news_align">
+            <div className="news_txt">
+              <h1>Kabum! News</h1>
+              <p>Receba ofertas excluisivas no seu e-mail</p>
+            </div>
+            <input type="text" placeholder="Qual é o seu nome?" className="news_input" />
+            <input type="text" placeholder="Seu E-mail" className="news_input" />
+            <input type="submit" value="Cadastrar" className="news_btn" />
+          </div>
+        </div>
+        <div className="footer_selos">
+          <img src={Selo1} alt="Selos" className="selo"/>
+          <img src={Selo2} alt="Selos" className="selo"/>
+          <img src={Selo3} alt="Selos" className="selo"/>
+          <img src={Selo4} alt="Selos" className="selo"/>
+          <img src={Selo5} alt="Selos" className="selo"/>
+          
+        </div>
+        <div className="footer_sobre">
+          <div style={{width:"80%",margin:"auto"}}>
+            <p>KaBuM!® é uma marca registrada de KABUM COMÉRCIO ELETRÔNICO S/A | CNPJ: 05.570.714/0001-59 |
+              Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem
+              ser alterados sem prévio aviso. O KaBuM! não é responsável por erros descritivos. As fotos
+              contidas nesta página são meramente ilustrativas do produto e podem variar de acordo com o
+              fornecedor/lote do fabricante. Este site trabalha 100% em criptografia SSL. Clique aqui e veja
+              as políticas de nossa empresa.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
