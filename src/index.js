@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Layout from './Layout'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Slider from './Components/Slider'
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Layout/>
+    <Slider/>
   </React.StrictMode>,
   document.getElementById('root')
 );

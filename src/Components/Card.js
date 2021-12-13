@@ -26,7 +26,8 @@ function Card(props) {
                         height: "6vh",
                         borderRadius: "5px",
                         padding: "5px",
-                        textAlign: "center"
+                        textAlign: "center",
+                        lineHeight:"2vh"
                     }}>
                         <h1>{props.promocao}</h1>
                         <ArrowDropDownIcon />
@@ -39,11 +40,12 @@ function Card(props) {
                         border: "1px solid #ef611c",
                         borderRadius: "5px",
                         padding: "5px",
-                        height:"6vh"
+                        height:"6vh",
+                        lineHeight:"1.5vh"
                     }}>
-                        <h2>Restam</h2>
-                        <h1 style={{ color: "#ff4705" }}>{props.quantidade}</h1>
-                        <h2>Unid.</h2>
+                        <h2 style={{margin:"0",fontSize:"1.5vh"}}>Restam</h2>
+                        <h1 style={{ color: "#ff4705",margin:"0",fontSize:"1.5vh"}}>{props.quantidade}</h1>
+                        <h2 style={{fontSize:"1.5vh"}}>Unid.</h2>
                     </div>
                     <div style={{
                         color: "#ef611c",

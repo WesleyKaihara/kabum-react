@@ -144,7 +144,10 @@ function Layout() {
               textDecoration: "underline",
               textTransform: "uppercase",
             }}>
-              <h1 >Todas as Ofertas</h1>
+              <h1 style={{
+                color:"#ef611c",
+                marginTop:"2vh"
+              }}>Todas as Ofertas</h1>
 
             </div>
             <div className="Anuncios" style={{

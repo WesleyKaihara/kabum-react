@@ -203,9 +203,14 @@
 .footer_selos{
     width: 80%;
     margin: auto;
+    display: flex;
+    gap: 10vh;
+    padding: 3vh;
 }
 
 .selo{
     width: 15%;
-    height: 5h;
+    height: 15vh;
 }
+
+

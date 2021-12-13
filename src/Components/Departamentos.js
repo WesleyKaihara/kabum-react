@@ -9,7 +9,8 @@ function Departamento(props){
                 background:"#ededed",
                 textAlign:"center",
                 color:"#000e7c",
-                fontSize:"3.4vh"
+                fontSize:"3.4vh",
+                margin:"0"
             }}>{props.titulo}</h1>
             <div style={{
                 display:"flex",
