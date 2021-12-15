@@ -43,11 +43,11 @@ function Layout() {
     <div className="App">
       <header>
         <div className="cabecalho" >
-          <MenuIcon style={{
+          {/* <MenuIcon style={{
             fontSize: "6vh",
             paddingRight: "3vh",
             color: "#fff"
-          }} />
+          }} /> */}
           <img src={Kabum} className="header-logo" alt="LogoKabum" />
 
           <div className="pesquisa" >
@@ -82,14 +82,14 @@ function Layout() {
       <main>
         <div className="contador">
           <div className="contator-align">
-            <h1>Natal Ninja</h1>
+            <h1 style={{color:"#fff"}}>Natal Ninja</h1>
             <div style={{
               display: "flex",
               alignItems: "center",
               gap: "1vh"
-
             }}
-            ><h1>A promoção termina em  </h1> <AccessTimeIcon />  <Relogio fontSize="3.5vh" /></div>
+            class="contador-time"
+            ><h1 style={{color:"#fff"}}>A promoção termina em  </h1><AccessTimeIcon />  <Relogio fontSize="3.5vh" /></div>
           </div>
         </div>
         <div className="main-back" style={{ background: "#fafafb", }}>
@@ -98,7 +98,7 @@ function Layout() {
               width: "100%",
               display: "flex",
               paddingTop: "4vh",
-              gap: "2vh"
+              gap: "2vh",
             }}>
 
               <Card
@@ -158,10 +158,10 @@ function Layout() {
               paddingBottom: "5vh",
               justifyContent: "space-between",
             }}>
-              <div style={{ width: "48%" }} className="Propaganda">
+              <div className="Propaganda">
                 <img src={Propaganda1} alt="Propaganda1" />
               </div>
-              <div style={{ width: "48%" }} className="Propaganda">
+              <div  className="Propaganda">
                 <img src={Propaganda2} alt="Propaganda2" />
               </div>
             </div>
@@ -170,7 +170,6 @@ function Layout() {
               <div style={{ display: "flex", alignItems: "center" }}><ListIcon style={{ fontSize: "6vh", color: "#ef611c" }} /><h1> Departamentos</h1></div>
               <div className="Departamento" style={{
                 display: "flex",
-                justifyContent: "space-between",
                 flexWrap: "wrap"
               }}>
                 <Departamento
@@ -334,7 +333,7 @@ function Layout() {
         <div className="news">
           <div className="news_align">
             <div className="news_txt">
-              <h1>Kabum! News</h1>
+              <h1 style={{color:"#fff"}}>Kabum! News</h1>
               <p>Receba ofertas excluisivas no seu e-mail</p>
             </div>
             <input type="text" placeholder="Qual é o seu nome?" className="news_input" />

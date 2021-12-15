@@ -6,13 +6,13 @@ import "../estilo.css"
 function Card(props) {
     return (
         <div className="Card" style={{
-            width: "25%",
+            width:props.width,
             background: "#fff",
             borderRadius: "10px",
         }}
         >
             <div style={{
-                padding: "10px"
+                padding: "10px",
             }}>
                 <div style={{
                     display: "flex",

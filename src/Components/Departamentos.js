@@ -1,7 +1,9 @@
 function Departamento(props){
     return(
-        <div style={{
-            width:"23%",
+        <div 
+        style={{
+
+            width:props.width,
             height:"30vh",
             marginTop:"5vh",
         }}>

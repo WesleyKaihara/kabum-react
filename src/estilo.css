@@ -213,4 +213,91 @@
     height: 15vh;
 }
 
+.Propaganda{
+    width: 48%;
+}
 
+.Departamento{
+    justify-content: space-between;
+}
+@media(max-width:1000px){
+
+    .Produtos{
+        flex-direction: column;
+    }
+
+    .procurados_produtos{
+        flex-direction: column;
+    }
+    .footer_selos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .selo{
+        width: 35%;
+        height: 35%;
+    }
+    .contator-align{
+        font-size: 1vh;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+    }
+    .contador-time{
+        flex-direction: column;
+    }
+    .procurados{
+        flex-direction: column;
+    }
+    .procurados_itens{
+        width: 100%;
+    }
+    .promocao{
+        width: 100%;
+        gap: 5vh;
+    }
+    .noticias{
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .noticias_card{
+        width: 100%;
+    }
+    .Alinhar{
+        display: none;
+    }
+    .cabecalho{
+        flex-direction: column;
+        height:36vh;
+    }
+    .header-logo{
+        width: 50%;
+    }
+    .pesquisa{
+        width: 80%;
+        margin-top: 3vh;
+    }
+    .header-login{
+        font-size: .8vh;
+        margin-top: 1vh;
+    }
+    .news_align{
+        flex-direction: column;
+    }
+    .news_txt,.news_input,.news_btn{
+        width: 100%;
+    }
+    .Propaganda{
+        width: 100%;
+    }
+    .Anuncios{
+        flex-direction: column;
+        gap: 4vh;
+    }
+    .banner{
+        display: none;
+    }
+    .Departamento{
+        justify-content: center;
+    }
+}   
